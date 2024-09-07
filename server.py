@@ -19,7 +19,7 @@ def test():
       db.add_data(obj)
       info = db.get_data()
       print(info)
-      return render_template('answer.html', obj=info)
+      return render_template('answer.html', array=info)
    # obj['first_name'][0]
    # request.form.get('first_name')
    return 'Получил не POST запрос'
